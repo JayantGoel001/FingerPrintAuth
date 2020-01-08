@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_centerInParent="true"
+        android:id="@+id/linearLayout"
+        android:gravity="center"
+        android:layout_height="wrap_content">
+        <ImageView
+            android:id="@+id/icon"
+            android:layout_marginBottom="30dp"
+            android:src="@drawable/ic_fingerprint_black_24dp"
+            android:background="@android:color/black"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:paddingTop="2dp"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginTop="20dp"
+            android:text="@string/one_touch_sign_in"
+            android:textSize="24sp"
+            android:textColor="@android:color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/desc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/please_place_your_finger_on_the_scanner_to_verify_your_identity"
+            android:layout_margin="16dp"
+            android:gravity="center"
+            android:paddingEnd="30dp"
+            android:paddingStart="30dp"
+            android:textSize="16sp"
+            android:textColor="@android:color/black"/>
+        <TextView
+            android:id="@+id/errorText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text=""
+            android:textAlignment="center"
+            android:textColor="@android:color/black"
+            android:textSize="25sp"/>
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/fingerprint_sign_in_makes_your_app_login_much_faster_your_device_should_have_at_least_one_fingerprint_registered_in_device_settings"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="26dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        android:textAlignment="center"
+        android:textColor="@android:color/black"
+        android:textSize="14sp"
+        />
+
+</RelativeLayout>

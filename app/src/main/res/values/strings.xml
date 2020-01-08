@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">FingerPrintAuth</string>
+    <string name="one_touch_sign_in">One Touch Sign-IN</string>
+    <string name="please_place_your_finger_on_the_scanner_to_verify_your_identity">Please Place Your Finger on the Scanner To Verify Your Identity</string>
+    <string name="fingerprint_sign_in_makes_your_app_login_much_faster_your_device_should_have_at_least_one_fingerprint_registered_in_device_settings">(FingerPrint sign in makes your app login much faster.Your device should have at least one fingerprint registered in device settings).</string>
+</resources>
